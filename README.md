@@ -271,3 +271,5 @@ open-source releases (xnu, IOHIDFamily, libpthread, hfs),
 [ipsw](https://github.com/blacktop/ipsw), Mesa freedreno and the Linux msm driver as
 register references, and Qualcomm/Xiaomi's published Linux kernel sources. iOS itself is
 Apple's and is not distributed here.
+
+<!-- workflow-registration-touch -->
