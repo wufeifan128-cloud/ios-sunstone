@@ -23,9 +23,7 @@ on:
       - ".github/workflows/xnu.yml"
 
 
-concurrency:
-  group: xnu-${{ github.ref }}
-  cancel-in-progress: true
+# concurrency block removed locally: a stuck queued run held the group
 
 env:
   DXB_REPO: https://github.com/blacktop/darwin-xnu-build
